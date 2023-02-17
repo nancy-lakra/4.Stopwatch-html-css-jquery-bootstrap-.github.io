@@ -1,0 +1,104 @@
+
+
+body {
+    background: url(bg.jpg) center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+#header {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    /* text-shadow: 3px 3px 3px #ababab; */
+    font-size: 6.3vw;
+    text-align: center;
+    color: #fff;
+}
+
+#laptime {
+    text-align: right;
+    margin-right: 3.7vw;
+    font-family: "Saira", sans-serif;
+    /* text-shadow: 3px 3px 3px #ababab; */
+    font-size: 4vw;
+    color: #fff;
+
+}
+
+#time {
+    text-align: center;
+    font-family: "Tourney", sans-serif;
+    /* text-shadow: 3px 3px 3px #ababab; */
+    font-size: 9vw;
+    color: #fff;
+    
+}
+
+#controlsContainer {
+    margin-bottom: 50px;
+    margin-left: 33.6vw;
+    text-align: center;
+}
+
+.control {
+    font-size: 3vw;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background-color: #d7a04e;
+    text-align: center;
+    border-radius: 10%; 
+    width: 12vw;
+    height: 6vw;
+    padding: 10% 0%;
+    transition: 10ms;
+}
+
+.control:hover {
+    background-color: white;
+    border: 2px solid rgb(203, 203, 203);
+    color: #d7a04e;
+}
+
+.control:active {
+    background-color: rgb(223, 221, 221);
+    box-shadow: none;
+    color: #be8530;
+    height: 5.9vw;
+    width: 11.8vw;
+}
+
+#lapdata {
+    max-height: 30vw;
+    overflow-y: scroll;
+}
+
+.laps{
+    color: white;
+    height: 6vw;
+    border-bottom: 1px solid white;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.laptimetitle{
+    font-size: 3vw;
+    float: left;
+}
+
+.laptimedeet{
+    font-size: 3.9vw;
+    float: right;
+}
+
+#resume{
+    display: none;
+}
+
+#stop{
+    display: none;
+}
+
+#reset{
+    display: none;
+}
